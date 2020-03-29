@@ -15,6 +15,7 @@ help:
 	@echo
 	@echo "env:        show environment info"
 	@echo "deps:       list prod dependencies"
+	@echo "freeze:     convert lockfile to requirements.txt"
 	@echo
 	@echo "======================================================================"
 	@echo
@@ -44,3 +45,6 @@ env:
 
 deps:
 	poetry show --tree --no-dev
+
+freeze:
+	poetry export -f requirements.txt > requirements.txt
