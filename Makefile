@@ -1,3 +1,5 @@
+.PHONY: test
+
 help:
 	@echo
 	@echo "======================================================================"
@@ -6,6 +8,7 @@ help:
 	@echo
 	@echo "srv:        run dev server"
 	@echo "ind:        open index page"
+	@echo "test:       run tests"
 	@echo "todo:       view all todos"
 	@echo
 	@echo "📦 DEPENDENCIES"
@@ -25,6 +28,9 @@ srv:
 
 ind:
 	open http://localhost:8000
+
+test:
+	poetry run python manage.py test
 
 todo:
 	rg -i -B 3 -A 3 todo *.py
