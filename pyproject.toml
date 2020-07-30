@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dj-vincent-pages"
+name = "django-vincent-beginners-pages"
 version = "0.1.0"
 description = ""
 authors = ["zachvalenta <zjv5002@gmail.com>"]
