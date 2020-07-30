@@ -6,6 +6,7 @@ help:
 	@echo
 	@echo "🛠  UTILS"
 	@echo
+	@echo "mig:        run migrations"
 	@echo "srv:        run dev server"
 	@echo "ind:        open index page"
 	@echo "test:       run tests"
@@ -23,6 +24,9 @@ help:
 #
 # 🛠 UTILS
 #
+
+mig:
+	poetry run python manage.py migrate
 
 srv:
 	poetry run python manage.py runserver
