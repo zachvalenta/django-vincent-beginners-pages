@@ -2,7 +2,7 @@
 
 App from chapter 3 of [Django for Beginners](https://djangoforbeginners.com/).
 
-# run locally
+## run locally
 
 * install dependencies: `poetry install`
 * run migrations: `make mig`
