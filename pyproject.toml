@@ -6,7 +6,7 @@ authors = ["zachvalenta <zjv5002@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
-django = "^3.2.24"
+django = "^3.2.25"
 gunicorn = "^20.0.4"
 
 [tool.poetry.dev-dependencies]
